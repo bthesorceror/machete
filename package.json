@@ -1,0 +1,30 @@
+{
+  "name": "machete",
+  "version": "0.0.1",
+  "description": "Making json request more efficient",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bthesorceror/machete.git"
+  },
+  "keywords": [
+    "json",
+    "http",
+    "requests"
+  ],
+  "author": "Brandon Farmer",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/bthesorceror/machete/issues"
+  },
+  "dependencies": {
+    "tax_collector": "0.0.1",
+    "hyperquest": "~0.1.7"
+  },
+  "devDependencies": {
+    "tape": "~1.0.4"
+  }
+}
