@@ -15,7 +15,7 @@ function Machete(url, raw) {
 
 Machete.prototype.setFilter = function(filter) {
   if (filter)
-    this.filter = filter
+    this.filter = filter;
   return this;
 }
 
@@ -28,7 +28,6 @@ Machete.prototype.get = function() {
       this._errored('STATUS CODE -- ' + res.statusCode);
       return;
     }
-
     this._process(res);
   }.bind(this));
   return this;
