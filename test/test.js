@@ -84,10 +84,7 @@ tape('gets raw response', function(test) {
   });
 
   machete.on('done', function(result) {
-    var opts = {
-      encoding: 'utf8'
-    };
-    test.equal(result, fs.readFileSync(path.join(__dirname, 'test.html'), opts));
+    test.equal(result, fs.readFileSync(path.join(__dirname, 'test.html'), 'utf8'));
   });
 
   machete.get();
