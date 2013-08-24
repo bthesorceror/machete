@@ -1,5 +1,5 @@
 var tape    = require('tape');
-var Machete = require('./index');
+var Machete = require('../index');
 var http    = require('http');
 var fs      = require('fs');
 var path    = require('path');

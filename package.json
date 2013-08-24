@@ -4,7 +4,7 @@
   "description": "Making json request more efficient",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node ./test/test.js"
   },
   "repository": {
     "type": "git",
